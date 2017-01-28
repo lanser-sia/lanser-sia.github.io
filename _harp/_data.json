@@ -1,0 +1,313 @@
+{
+  "index": {
+    "headTitle": "Lanser"
+  },
+
+  "prices": {
+    "shoes": {
+      "heading": {
+        "en": "Shoes",
+        "ru": "",
+        "lv": ""
+      },
+      "items": [
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Pasitņi poliuretana",
+          "min": "5,70",
+          "max": "7,10"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Pasitņi no izturīgās gumijas",
+          "min": "6,40",
+          "max": "10,60"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Pasitņi metāla",
+          "min": "7,00",
+          "max": "10,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Pasitņi vīriešu apaviem (Francija-TOPI)",
+          "min": "10,00",
+          "max": "14,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Profilaktiskas zoles pielikšana (siev.)",
+          "min": "10,00",
+          "max": "12,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Profilaktiskas zoles pielikšana (vīr.)",
+          "min": "11,00",
+          "max": "14,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": " Papēžu apvilces nomaiņa",
+          "min": "22,50",
+          "max": "28,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Papēžu nomaiņa (siev.)",
+          "min": "18,50",
+          "max": "28,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Papēžu nomaiņa (vīr.)",
+          "min": "24,00",
+          "max": "37,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Supinātora maiņa 1 gab.",
+          "min": "9,50",
+          "max": "12,90"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Supinātora nomaiņa ar papildus metāla stiprinājumu",
+          "min": "11,40",
+          "max": "17,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Zoles lūzuma remonts + profilaktika",
+          "min": "14,00",
+          "max": "20,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Iekšzoles maiņa (ādas( 1 gab.",
+          "min": "6,40",
+          "max": "7,80"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rāvējslēdža maiņa 1 gab.",
+          "min": "8,50",
+          "max": "20,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Apavu zoles nošūšana pa perimetru ar rokām pāris",
+          "min": "14,00",
+          "max": "22,90"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Ielāpa uzlikšana 1 gab.",
+          "min": "7,00",
+          "max": "14,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Zoles pielīmēšana no jauna 1 gab.",
+          "min": "7,00",
+          "max": "8,90"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Saistzoles maiņa 1 gab.",
+          "min": "7,00",
+          "max": "10,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Cietās kapes maiņa pāris 2",
+          "min": "2,90",
+          "max": "28,90"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Holnitena, kniedes ielikšana 1 gab.",
+          "min": "0,70",
+          "max": "2,80"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Zoles maiņa",
+          "min": "21,00",
+          "max": "27,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Kapitālas remonts",
+          "min": "57,00",
+          "max": "85,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Zābaka stulma iešūšana (ādas zābakiem)",
+          "min": "22,50",
+          "max": "35,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Zābaka stulma iešūšana (zeķzābakiem)",
+          "min": "22,50",
+          "max": "35,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Apavu tīrīšana gluda āda",
+          "min": "3,50",
+          "max": "7,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Apavu stiešana platumā pēdas daļā",
+          "min": "5,50",
+          "max": "9,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Papēža piestiprināšana 1 gab.",
+          "min": "5,50",
+          "max": "8,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Papēža sastiprināšana",
+          "min": "",
+          "max": "10,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Apavu stiepšana stulma daļā",
+          "min": "5,50",
+          "max": "8,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Apavu virsu remonts 1 gab. 1",
+          "min": "2,00",
+          "max": "23,50"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Pakaviņu uzlikšana 2 gab.",
+          "min": "",
+          "max": "7,00"
+        }
+      ]
+    },
+    "purses": {
+      "heading": {
+        "en": "Purses",
+        "ru": "",
+        "lv": ""
+      },
+      "items": [
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rāvējslēdzēju nomaiņa 1 gab.",
+          "min": "9,00",
+          "max": "17,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Galviņu nomaiņa 1 gab.",
+          "min": "3,00",
+          "max": "6,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rokturu nomaiņa 1",
+          "min": "4,00",
+          "max": "25,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rokturu remonts",
+          "min": "7,00",
+          "max": "15,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Lielāpu uzlikšana 1 gab.",
+          "min": "6,00",
+          "max": "10,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rokturu stiprināšana 1 gab.",
+          "min": "3,00",
+          "max": "6,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Magnētu uzlikšana 1 gab.",
+          "min": "6,00",
+          "max": "12,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Furnitūras nomaiņa 1 gab.",
+          "min": "5,00",
+          "max": "20,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Dažādi Šūšanas Darbi",
+          "min": "3,00",
+          "max": "15,00"
+        },
+        {
+          "en": "",
+          "ru": "",
+          "lv": "Rokturu stiprinājumu nomaiņa 1 gab.",
+          "min": "3,00",
+          "max": "9,00"
+        }
+      ]
+    }
+  }
+}

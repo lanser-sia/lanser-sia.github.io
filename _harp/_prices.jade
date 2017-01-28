@@ -1,0 +1,18 @@
+- var data = public._data.prices;
+
+mixin priceTable(items, lang)
+    table(class='prices')
+        each item in items
+            tr
+                td= item[lang]
+                td #{item.min}
+                td
+                    if item.min
+                        | &ndash;
+                td #{item.max}
+                td &euro;
+
+mixin prices(lang)
+    each category in data
+        h2 #{category.heading[lang]}
+        +priceTable(category.items, lang)
