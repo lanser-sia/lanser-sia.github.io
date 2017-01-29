@@ -1,7 +1,13 @@
 doctype
 html
   head
+    meta(charset="utf-8")
     title #{headTitle}
     link(rel="stylesheet" href="/main.css")
+
+    if current.source == 'index'
+      script(type="application/ld+json")
+        include _og.json
+
   body
     != yield
