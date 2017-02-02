@@ -308,5 +308,13 @@
         }
       ]
     }
+  },
+
+  "txt": {
+    "about": "About",
+    "prices": "Prices",
+    "contact": "Contact us",
+    "media": "In the media"
   }
+
 }

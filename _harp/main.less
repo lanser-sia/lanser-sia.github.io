@@ -1,21 +1,55 @@
 body {
   font-family: "Helvetica", sans-serif;
-  margin: 0;
+  font-size: 12pt;
+  margin: 0 auto;
+  max-width: 960px;
+}
+main {
+  margin: 0 auto 48px;
+  padding: 10px;
+  /*background: #eee6d3;*/
+  background: #E2E2E2;
+  border: 4px solid #4E7E42;
+  /*border: 4px solid #33506C;*/
+  border-radius: 10px;
+}
+nav {
+  ul, li {
+    display: inline-block;
+    margin: 1em;
+  }
 }
 
 .prices {
   td:nth-child(1) {
     text-align: left;
     padding-right: 1em;
+    width: 100%;
   }
   td {
     text-align: right;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
   }
+  width: 100%;
+  max-width: 500px;
 }
 
 #SkypeButton_Call_kristina_h81, #SkypeButton_Chat_kristina_h81 {
   display: inline;
   > * {
     display: inline;
+  }
+}
+button {
+  margin: 3em;
+  font-size: xx-large;
+}
+@media screen and (max-width: 360px){
+  .prices {
+    font-size: smaller;
+  }
+  article {
+    padding: 0 5px 0 0;
   }
 }

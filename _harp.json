@@ -1,6 +1,15 @@
 {
-  "globals" : {
+  "globals": {
+    "lang": "lv",
+    "about": "About",
+    "prices": "Prices",
+    "contact": "Contact us",
+    "media": "In the media",
     "txt": {
+      "about": "About",
+      "prices": "Prices",
+      "contact": "Contact us",
+      "media": "In the media",
       "footer": {
         "lv": {
           "tel": "tālr. ",
@@ -17,6 +26,29 @@
           "mob": "mob. ",
           "hours": "darba laiks: pirm. - piek. 9-19, sest. 9-14"
         }
+      }
+    }
+  },
+  "txt": {
+    "about": "About",
+    "prices": "Prices",
+    "contact": "Contact us",
+    "media": "In the media",
+    "footer": {
+      "lv": {
+        "tel": "tālr. ",
+        "mob": "mob. ",
+        "hours": "darba laiks: pirm. - piek. 9-19, sest. 9-14"
+      },
+      "en": {
+        "tel": "tālr. ",
+        "mob": "mob. ",
+        "hours": "darba laiks: pirm. - piek. 9-19, sest. 9-14"
+      },
+      "ru": {
+        "tel": "tālr. ",
+        "mob": "mob. ",
+        "hours": "darba laiks: pirm. - piek. 9-19, sest. 9-14"
       }
     }
   }

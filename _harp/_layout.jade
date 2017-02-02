@@ -1,7 +1,11 @@
+- var lang = "en"
+
 doctype
 html
   head
     meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
     title #{headTitle}
     link(rel="stylesheet" href="/main.css")
 
@@ -10,4 +14,30 @@ html
         include _og.json
 
   body
-    != yield
+    header
+      nav.languages
+        ul
+          li
+            a(href="/lv/#{current.source}") LV
+          li
+            a(href="/en/#{current.source}") EN
+          li
+            a(href="/ru/#{current.source}") RU
+
+    nav
+      ul.pages
+        li
+          a(href="/#{lang}/about") About
+        li
+          a(href="/#{lang}/prices") Prices
+        li
+          a(href="/#{lang}/contact") Contact
+        li
+          a(href="/#{lang}/media") Media
+
+  main
+      != yield
+
+    footer
+
+    script(type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-588f3e67d340e42c" defer)
