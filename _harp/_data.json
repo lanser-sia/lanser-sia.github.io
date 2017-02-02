@@ -7,222 +7,222 @@
       "heading": {
         "en": "Shoes",
         "ru": "Обувь",
-        "lv": "Shaws"
+        "lv": "Apavi"
       },
       "items": [
         {
-          "en": "Pillow imposition of two pieces.",
-          "ru": "Подушка наложение двух частей.",
+          "en": "Polyurethane heeltaps",
+          "ru": "Набойки из полеритана",
           "lv": "Pasitņi poliuretana",
           "min": "5,70",
           "max": "7,10"
         },
         {
-          "en": "uppers repair 1 pc. 1",
-          "ru": "голенище ремонт 1 шт 1.",
+          "en": "Wear off-resistant rubber heeltaps",
+          "ru": "Набойки из носостойкой резины",
           "lv": "Pasitņi no izturīgās gumijas",
           "min": "6,40",
           "max": "10,60"
         },
         {
-          "en": "Shoes stretching SHAFT Part",
-          "ru": "Обувь на растяжку вал часть",
+          "en": "Metal heeltaps",
+          "ru": "Набойки из метала",
           "lv": "Pasitņi metāla",
           "min": "7,00",
           "max": "10,00"
         },
         {
-          "en": "Heel bonding",
-          "ru": "Каблук склеивание",
+          "en": "Heeltap for mens' shoes (France - TOPI)",
+          "ru": "Набойки на мужскую обувь(Франция-ТОРI)",
           "lv": "Pasitņi vīriešu apaviem (Francija-TOPI)",
           "min": "10,00",
           "max": "14,00"
         },
         {
-          "en": "Heel Attaching 1 piece.",
-          "ru": "Каблук Прикрепление 1 шт.",
+          "en": "Soles for wear off prevention (women)",
+          "ru": "Профилактика женской обуви",
           "lv": "Profilaktiskas zoles pielikšana (siev.)",
           "min": "10,00",
           "max": "12,00"
         },
         {
-          "en": "Shoes stiešana width foot part",
-          "ru": "Обувь stiešana ширина стопы часть",
+          "en": "Soles for wear off prevention (men)",
+          "ru": "Профилактика мужской обуви",
           "lv": "Profilaktiskas zoles pielikšana (vīr.)",
           "min": "11,00",
           "max": "14,00"
         },
         {
-          "en": "Shoes cleaning smooth skin",
-          "ru": "Обувь для чистки гладкой кожи",
-          "lv": " Papēžu apvilces nomaiņa",
+          "en": "Heel upholstery change",
+          "ru": "Натяжка каблуков",
+          "lv": "Papēžu apvilces nomaiņa",
           "min": "22,50",
           "max": "28,50"
         },
         {
-          "en": "boot stitching SHAFT (zeķzābakiem)",
-          "ru": "загрузки сшивание ВАЛ (zeķzābakiem)",
+          "en": "Heel, complete replacement(women)",
+          "ru": "Замена каблуков (жен.)",
           "lv": "Papēžu nomaiņa (siev.)",
           "min": "18,50",
           "max": "28,50"
         },
         {
-          "en": "boot SHAFT stitching (leather boots)",
-          "ru": "ботинок ВАЛ сшивание (кожаные сапоги)",
+          "en": "Heel, complete replacement (men)",
+          "ru": "Замена каблуков (муж.)",
           "lv": "Papēžu nomaiņa (vīr.)",
           "min": "24,00",
           "max": "37,00"
         },
         {
-          "en": "Overhaul",
-          "ru": "Капитальный ремонт",
+          "en": "Supinator replacement 1 еа.",
+          "ru": "Замена супинатора 1 шт.",
           "lv": "Supinātora maiņa 1 gab.",
           "min": "9,50",
           "max": "12,90"
         },
         {
-          "en": "Soles change",
-          "ru": "Подошвы изменения",
+          "en": "Supinator replacement with addition of metal stiffener",
+          "ru": "Замена супинатора с добавлением железных подпяточников",
           "lv": "Supinātora nomaiņa ar papildus metāla stiprinājumu",
           "min": "11,40",
           "max": "17,00"
         },
         {
-          "en": "Holnitena, rivets Insert 1 piece.",
-          "ru": "Holnitena, заклепки Вставьте 1 шт.",
+          "en": "Soles' cracks/fracture repair + safeguard",
+          "ru": "Ремонт трещин подошвы + профилактика",
           "lv": "Zoles lūzuma remonts + profilaktika",
           "min": "14,00",
           "max": "20,00"
         },
         {
-          "en": "Solid caps change a couple of 2",
-          "ru": "Твердые колпачков изменить пару 2",
-          "lv": "Iekšzoles maiņa (ādas( 1 gab.",
+          "en": "Insoles (leather) inserts/repair 1 pc",
+          "ru": "Внутренние вклейки из кожи",
+          "lv": "Iekšzoles maiņa (ādas) 1 gab.",
           "min": "6,40",
           "max": "7,80"
         },
         {
-          "en": "soles of a change 1 pc.",
-          "ru": "Подошвы на изменение 1 шт.",
+          "en": "Zipper replacement",
+          "ru": "Замена молнии",
           "lv": "Rāvējslēdža maiņa 1 gab.",
           "min": "8,50",
           "max": "20,00"
         },
         {
-          "en": "Soles gluing again one piece.",
-          "ru": "Подошвы снова приклеивания один кусок.",
+          "en": "Re-welting around soles by hand",
+          "ru": "Прошивка подошвы по периметру вручную",
           "lv": "Apavu zoles nošūšana pa perimetru ar rokām pāris",
           "min": "14,00",
           "max": "22,90"
         },
         {
-          "en": "Patch imposition of one piece.",
-          "ru": "Patch наложение одной части.",
+          "en": "Patching 1 ea",
+          "ru": "Установка заплатки 1 шт.",
           "lv": "Ielāpa uzlikšana 1 gab.",
           "min": "7,00",
           "max": "14,00"
         },
         {
-          "en": "Shoes soles nošūšana around the perimeter with his hands a couple of",
-          "ru": "Обувь подошвы nošūšana по периметру с его руки на пару",
+          "en": "Fully new sole adhesion",
+          "ru": "Приклейка подошвы с нуля 1 шт.",
           "lv": "Zoles pielīmēšana no jauna 1 gab.",
           "min": "7,00",
           "max": "8,90"
         },
         {
-          "en": "zipper change one piece.",
-          "ru": "изменение молнии один кусок.",
+          "en": "Insoles replacement 1 pc.",
+          "ru": "Замена стелек 1 шт.",
           "lv": "Saistzoles maiņa 1 gab.",
           "min": "7,00",
           "max": "10,00"
         },
         {
-          "en": "Changing the insole (the skin (1 pc.",
-          "ru": "Изменение стелька (кожа (1 шт.",
+          "en": "Heel counter replacement 2 pcs.",
+          "ru": "Замена задника обуви 2 шт.",
           "lv": "Cietās kapes maiņa pāris 2",
           "min": "2,90",
           "max": "28,90"
         },
         {
-          "en": "Soles fracture repair + prophylaxis",
-          "ru": "Подошвы ремонт перелом + профилактика",
+          "en": "Metal fastener installation/and other implementations 1 pc.",
+          "ru": "Установка заклепок/фурнитура 1шт.",
           "lv": "Holnitena, kniedes ielikšana 1 gab.",
           "min": "0,70",
           "max": "2,80"
         },
         {
-          "en": "Supinators replacement with extra metal fastener",
-          "ru": "замена Supinators с дополнительной металлической застежкой",
+          "en": "Soles full replacement",
+          "ru": "Полная замена подошвы",
           "lv": "Zoles maiņa",
           "min": "21,00",
           "max": "27,00"
         },
         {
-          "en": "Supinators change one piece.",
-          "ru": "Supinators изменить одну часть.",
+          "en": "Complete repair",
+          "ru": "Капитальный ремонт",
           "lv": "Kapitālas remonts",
           "min": "57,00",
           "max": "85,00"
         },
         {
-          "en": "Heel Replacement (m.)",
-          "ru": "Каблук Замена (м.)",
+          "en": "Cuff stiching (leather boots)",
+          "ru": "Ушивка голенища (кожан. сапоги)",
           "lv": "Zābaka stulma iešūšana (ādas zābakiem)",
           "min": "22,50",
           "max": "35,50"
         },
         {
-          "en": "Heel Replacement (woman).",
-          "ru": "каблук Замена (женщина).",
+          "en": "Cuff stiching (non-leather boots)",
+          "ru": "Ушивка голенища (некожан. сапоги)",
           "lv": "Zābaka stulma iešūšana (zeķzābakiem)",
           "min": "22,50",
           "max": "35,50"
         },
         {
-          "en": "Heel apvilces replacement",
-          "ru": "Каблук apvilces замены",
+          "en": "Shoe shining/cleaning for smooth leather",
+          "ru": "Обувная чистка для гладкой кожи",
           "lv": "Apavu tīrīšana gluda āda",
           "min": "3,50",
           "max": "7,00"
         },
         {
-          "en": "Preventive insoles Attaching (m.)",
-          "ru": "Профилактические стельки Прикрепление (м.)",
+          "en": "Vamp stretching",
+          "ru": "Растяжка обуви",
           "lv": "Apavu stiešana platumā pēdas daļā",
           "min": "5,50",
           "max": "9,00"
         },
         {
-          "en": "Preventive insoles Attaching (woman).",
-          "ru": "Профилактические стельки Прикрепление (женщина).",
+          "en": "Heel reinforcement 1 ea.",
+          "ru": "Укрепление каблука 1 шт.",
           "lv": "Papēža piestiprināšana 1 gab.",
           "min": "5,50",
           "max": "8,50"
         },
         {
-          "en": "Pasitņi male footwear (France-TOPS)",
-          "ru": "Pasitņi Обувь мужская (Франция верхушками)",
+          "en": "Heel fastening",
+          "ru": "Приклеивание каблука",
           "lv": "Papēža sastiprināšana",
           "min": "",
           "max": "10,50"
         },
         {
-          "en": "Pasitņi metal",
-          "ru": "Pasitņi металл",
+          "en": "Cuff stretching",
+          "ru": "Растяжка голенища",
           "lv": "Apavu stiepšana stulma daļā",
           "min": "5,50",
           "max": "8,50"
         },
         {
-          "en": "Pasitņi of resistant rubber",
-          "ru": "Pasitņi из прочной резины",
+          "en": "General shoe repair (vamp) 1 ea.",
+          "ru": "Общий ремонт верхней части обуви 1 шт.",
           "lv": "Apavu virsu remonts 1 gab. 1",
           "min": "2,00",
           "max": "23,50"
         },
         {
-          "en": "Pasitņi polyurethane",
-          "ru": "Pasitņi полиуретана",
+          "en": "Metal sole installation 2 pcs",
+          "ru": "Установка подков 2 шт.",
           "lv": "Pakaviņu uzlikšana 2 gab.",
           "min": "",
           "max": "7,00"
@@ -232,76 +232,76 @@
     "purses": {
       "heading": {
         "en": "Purses",
-        "ru": "Кошельки",
+        "ru": "Сумочки",
         "lv": "Somiņas"
       },
       "items": [
         {
-          "en": "Handle mounts Replacement one piece.",
-          "ru": "Ручка крепления Замена одной части.",
+          "en": "Replacement of fasteners/zippers 1 pc.",
+          "ru": "Замена молнии 1 шт.",
           "lv": "Rāvējslēdzēju nomaiņa 1 gab.",
           "min": "9,00",
           "max": "17,00"
         },
         {
-          "en": "Various Sewing Works",
-          "ru": "Различные швейные завод",
+          "en": "Zipper's slider replacement 1 ea.",
+          "ru": "Земена собачки на молнии 1 шт.",
           "lv": "Galviņu nomaiņa 1 gab.",
           "min": "3,00",
           "max": "6,00"
         },
         {
-          "en": "Hardware Replacement one piece.",
-          "ru": "Замена оборудования одна часть.",
+          "en": "Handle Replacement 1 ea.",
+          "ru": "Ручка Замена 1 шт.",
           "lv": "Rokturu nomaiņa 1",
           "min": "4,00",
           "max": "25,00"
         },
         {
-          "en": "Magnet imposition of one piece.",
-          "ru": "Магнит наложение одной части.",
+          "en": "Handle repair 1 ea.",
+          "ru": "Ремонт ручки 1 шт.",
           "lv": "Rokturu remonts",
           "min": "7,00",
           "max": "15,00"
         },
         {
-          "en": "Handle mounting 1 pc.",
-          "ru": "Установка ручки 1 шт.",
+          "en": "Patching 1 pc.",
+          "ru": "Установка заплатки 1 шт.",
           "lv": "Lielāpu uzlikšana 1 gab.",
           "min": "6,00",
           "max": "10,00"
         },
         {
-          "en": "Lielāpu imposition of one piece.",
-          "ru": "Lielāpu наложение одной части.",
+          "en": "Handle's reinforcement 1 ea.",
+          "ru": "Укрепление ручки 1 шт.",
           "lv": "Rokturu stiprināšana 1 gab.",
           "min": "3,00",
           "max": "6,00"
         },
         {
-          "en": "Handle repair",
-          "ru": "Ручка ремонт",
+          "en": "Magnet imposition 1 pc.",
+          "ru": "Установка нового магнита 1 шт.",
           "lv": "Magnētu uzlikšana 1 gab.",
           "min": "6,00",
           "max": "12,00"
         },
         {
-          "en": "Handle Replacement 1",
-          "ru": "Ручка Замена 1",
+          "en": "Hardware Replacement.",
+          "ru": "Замена фурнитуры 1шт.",
           "lv": "Furnitūras nomaiņa 1 gab.",
           "min": "5,00",
           "max": "20,00"
         },
         {
-          "en": "Replacing the Socket 1 piece.",
-          "ru": "Замена гнездо 1 шт.",
+          "en": "Various sewing labour",
+          "ru": "Разные швейные работы",
           "lv": "Dažādi Šūšanas Darbi",
           "min": "3,00",
           "max": "15,00"
         },
         {
-          "en": "Replacement of fasteners 1 piece.",
-          "ru": "Замена крепежных элементов 1 шт.",
+          "en": "Complete replacement of handle mounts",
+          "ru": "Полная замена креплений для ручек 1 шт.",
           "lv": "Rokturu stiprinājumu nomaiņa 1 gab.",
           "min": "3,00",
           "max": "9,00"
