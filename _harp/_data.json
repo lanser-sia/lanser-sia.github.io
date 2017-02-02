@@ -12,7 +12,7 @@
       "items": [
         {
           "en": "Polyurethane heeltaps",
-          "ru": "Набойки из полеритана",
+          "ru": "Набойки из полиуретана",
           "lv": "Pasitņi poliuretana",
           "min": "5,70",
           "max": "7,10"
@@ -54,7 +54,7 @@
         },
         {
           "en": "Heel upholstery change",
-          "ru": "Натяжка каблуков",
+          "ru": "Обтяжка каблуков",
           "lv": "Papēžu apvilces nomaiņa",
           "min": "22,50",
           "max": "28,50"
@@ -81,8 +81,8 @@
           "max": "12,90"
         },
         {
-          "en": "Supinator replacement with addition of metal stiffener",
-          "ru": "Замена супинатора с добавлением железных подпяточников",
+          "en": "Supinator replacement with addition of metal heel plate",
+          "ru": "Замена супинатора с укреплением метал. пластины",
           "lv": "Supinātora nomaiņa ar papildus metāla stiprinājumu",
           "min": "11,40",
           "max": "17,00"
@@ -95,8 +95,8 @@
           "max": "20,00"
         },
         {
-          "en": "Insoles (leather) inserts/repair 1 pc",
-          "ru": "Внутренние вклейки из кожи",
+          "en": "Insoles (leather) repair 1 pc",
+          "ru": "Замена вклеек (внутренняя подошва)",
           "lv": "Iekšzoles maiņa (ādas) 1 gab.",
           "min": "6,40",
           "max": "7,80"
@@ -123,8 +123,8 @@
           "max": "14,00"
         },
         {
-          "en": "Fully new sole adhesion",
-          "ru": "Приклейка подошвы с нуля 1 шт.",
+          "en": "Current sole re-glueing",
+          "ru": "Переклейка подошвы (старой) 1 шт.",
           "lv": "Zoles pielīmēšana no jauna 1 gab.",
           "min": "7,00",
           "max": "8,90"
@@ -140,7 +140,7 @@
           "en": "Heel counter replacement 2 pcs.",
           "ru": "Замена задника обуви 2 шт.",
           "lv": "Cietās kapes maiņa pāris 2",
-          "min": "2,90",
+          "min": "22,90",
           "max": "28,90"
         },
         {
@@ -151,7 +151,7 @@
           "max": "2,80"
         },
         {
-          "en": "Soles full replacement",
+          "en": "Soles, full replacement",
           "ru": "Полная замена подошвы",
           "lv": "Zoles maiņa",
           "min": "21,00",
@@ -217,7 +217,7 @@
           "en": "General shoe repair (vamp) 1 ea.",
           "ru": "Общий ремонт верхней части обуви 1 шт.",
           "lv": "Apavu virsu remonts 1 gab. 1",
-          "min": "2,00",
+          "min": "12,00",
           "max": "23,50"
         },
         {
@@ -254,7 +254,7 @@
           "en": "Handle Replacement 1 ea.",
           "ru": "Ручка Замена 1 шт.",
           "lv": "Rokturu nomaiņa 1",
-          "min": "4,00",
+          "min": "14,00",
           "max": "25,00"
         },
         {
@@ -300,7 +300,7 @@
           "max": "15,00"
         },
         {
-          "en": "Complete replacement of handle mounts",
+          "en": "Complete replacement of handle mounts 1 ea.",
           "ru": "Полная замена креплений для ручек 1 шт.",
           "lv": "Rokturu stiprinājumu nomaiņa 1 gab.",
           "min": "3,00",
