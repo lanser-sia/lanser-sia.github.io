@@ -1,24 +1,50 @@
 block setup
     - var store = "Lanser store"
 
-picture
-    source(media="(min-width: 960px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-l.jpg 2x")
-    source(media="(min-width: 480px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-m.jpg 2x")
-    source(media="(min-width: 240px)" srcset="/static/img/store-s.jpg 2x")
-    img(src="/static/img/store-m.jpg" alt="#{store}")
+block lead
+    h1 Sia Lanser
+    p Remonts un apkope kurpes, aprīkošana papēži, remontu un tehnisko apkopi ādas izstrādājumu, bagāžas un tamlīdzīgi
+
+div.store
+    picture
+        source(media="(min-width: 960px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-l.jpg 2x")
+        source(media="(min-width: 480px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-m.jpg 2x")
+        source(media="(min-width: 240px)" srcset="/static/img/store-s.jpg 2x")
+        img(src="/static/img/store-m.jpg" alt="#{store}")
 
 div#map
 
 script.
     var map;
     function initMap() {
-        var position = {lat: 56.947693, lng: 24.124859};
+        var mapCenter = {lat: 56.947693, lng: 24.124859};
+        var streetStart = {lat:56.94802, lng:24.12463};
+        var streetEnd = {lat:56.94768, lng:24.124783};
+        var entrance = {lat: 56.94765, lng: 24.1249};
+        var iconPosition = {lat: 56.947593, lng: 24.125};
+
         map = new google.maps.Map(document.getElementById('map'), {
-            center: position,
+            center: mapCenter,
+            mapTypeId: "roadmap",
             zoom: 18
         });
-        var marker = new google.maps.Marker({
-            position: position,
+        new google.maps.Polyline({
+            path: [streetStart, streetEnd, entrance],
+            strokeColor: '#FF0000',
+            strokeOpacity: .5,
+            strokeWeight: 4,
+            icons: [
+                {icon:{
+                    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+                }}
+            ],
+            map: map
+        });
+        new google.maps.Marker({
+            position: iconPosition,
+            icon: "https://lanser.lv/favicon-32x32.png",
+            title: "Sia Lanser",
+            animation: google.maps.Animation.BOUNCE,
             map: map
         });
     }
