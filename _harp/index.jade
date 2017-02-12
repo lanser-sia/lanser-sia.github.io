@@ -8,18 +8,18 @@ block lead
 
 div.store
     picture
-        source(media="(min-width: 960px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-h.jpg 2x")
-        source(media="(min-width: 480px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-m.jpg 2x")
-        source(media="(min-width: 240px)" srcset="/static/img/store-s.jpg 2x")
-        img(src="/static/img/store-m.jpg" alt="#{store}")
+        //source(media="(min-width: 960px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-h.jpg 2x")
+        //source(media="(min-width: 480px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-m.jpg 2x")
+        //source(media="(min-width: 240px)" srcset="/static/img/store-s.jpg 2x")
+        img(src="/static/img/store2.jpg" alt="#{store}")
 
-div#navigationPanel
-    div
+div#navigationPanel.pac-card
+    div#pac-container
         label(for="start") #{directionStart}
-        input#start
+        input#pac-input(placeholder="Enter a location")
         input#end(value="56.948010, 24.124630" hidden="")
     div
-        label Mode of Travel:
+        label.mode Mode of Travel:
         select#mode
             option(value="DRIVING") Driving
             option(value="WALKING") Walking
@@ -27,6 +27,10 @@ div#navigationPanel
             option(value="TRANSIT") Transit
 div#map
 div#directions
+div#infowindow-content
+    img#place-icon(src="" width="16" height="16")
+    span#place-name.title <br>
+    span#place-address
 
 script.
     var map;
@@ -37,6 +41,8 @@ script.
         var entrance = {lat: 56.94765, lng: 24.1249};
         var iconPosition = {lat: 56.947593, lng: 24.125};
         var control = document.getElementById('navigationPanel');
+        var startInput = document.getElementById('pac-input');
+        var endInput = document.getElementById('end');
         var directionsDisplay = new google.maps.DirectionsRenderer;
         var directionsService = new google.maps.DirectionsService;
         var onChangeHandler = function () {
@@ -52,8 +58,22 @@ script.
         directionsDisplay.setPanel(document.getElementById('directions'));
         control.style.display = 'block';
         map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+
+        var autocomplete = new google.maps.places.Autocomplete(startInput);
+        autocomplete.bindTo('bounds', map);
+        autocomplete.addListener('place_changed', function () {
+            infowindow.close();
+            var place = autocomplete.getPlace();
+            onChangeHandler();
+            console.log(place);
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+        var infowindowContent = document.getElementById('infowindow-content');
+        infowindow.setContent(infowindowContent);
+
         document.getElementById('mode').addEventListener('change', onChangeHandler);
-        document.getElementById('start').addEventListener('change', onChangeHandler);
+        startInput.addEventListener('change', onChangeHandler);
 
         new google.maps.Polyline({
             path: [streetStart, streetEnd, entrance],
@@ -69,14 +89,14 @@ script.
         });
         new google.maps.Marker({
             position: iconPosition,
-            icon: "https://lanser.lv/favicon-32x32.png",
+            icon: "/static/img/logo_m.png?3",
             title: "Sia Lanser",
             animation: google.maps.Animation.BOUNCE,
             map: map
         });
 
         function calculateAndDisplayRoute(directionsService, directionsDisplay) {
-            var start = document.getElementById('start').value;
+            var start = document.getElementById('pac-input').value;
             var end = document.getElementById('end').value;
             var mode = document.getElementById('mode').value;
             directionsService.route({
@@ -94,4 +114,4 @@ script.
     }
 
 
-script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGbzsVZzP0b4yRMBOoqzsAwbQJmPRkOHs&callback=initMap")
+script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGbzsVZzP0b4yRMBOoqzsAwbQJmPRkOHs&callback=initMap&libraries=places")

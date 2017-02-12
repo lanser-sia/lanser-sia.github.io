@@ -14,30 +14,41 @@ html
         include _og.json
 
   body
-    header
-      nav.languages
-        ul
-          li
-            a(href="/lv/#{current.source}") LV
-          li
-            a(href="/en/#{current.source}") EN
-          li
-            a(href="/ru/#{current.source}") RU
+    .l
+      .c
+        header
+          a.home(href="/")
+            //img(src="/static/img/logo2.png?1" width=160)
+            | Sia&#160;Lanser
+          span.motto Jūsu apavi ir drošās rokās
 
-    nav
-      ul.pages
-        li
-          a(href="/#{lang}/about") About
-        li
-          a(href="/#{lang}/prices") Prices
-        li
-          a(href="/#{lang}/contact") Contact
-        li
-          a(href="/#{lang}/media") Media
+          nav.languages
+            ul
+              li
+                a.lv(href="/lv/#{current.source}") LV
+              li
+                a.en(href="/en/#{current.source}") EN
+              li
+                a.ru(href="/ru/#{current.source}") RU
 
-  main
-      != yield
+        nav.pages
+          ul
+            li
+              a(href="/#{lang}/about") About
+            li
+              a(href="/#{lang}/prices") Prices
+            li
+              a(href="/#{lang}/contact") Contact
+            li
+              a(href="/#{lang}/media") Media
 
-    footer
+        main
+
+          != yield
+
+        footer
+
+      .lm
+      .rm
 
     script(type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-588f3e67d340e42c" defer)
