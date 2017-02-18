@@ -1,9 +1,11 @@
-block setup
-    - var store = "Lanser store"
-    - var directionStart = "Get directions from:"
+-
+    var path = current.path.length < 2 ? ["lv", "index"] : current.path;
+    var lang = path[0];
+    var txt = public._data.txt[lang];
+
 
 block lead
-    h1 Sia Lanser
+    h1 Sia Lanser lang
     p Remonts un apkope kurpes, aprīkošana papēži, remontu un tehnisko apkopi ādas izstrādājumu, bagāžas un tamlīdzīgi
 
 div.store
@@ -11,20 +13,20 @@ div.store
         //source(media="(min-width: 960px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-h.jpg 2x")
         //source(media="(min-width: 480px)" srcset="/static/img/store-s.jpg 1x, /static/img/store-m.jpg 2x")
         //source(media="(min-width: 240px)" srcset="/static/img/store-s.jpg 2x")
-        img(src="/static/img/store2.jpg" alt="#{store}")
+        img(src="/static/img/store2.jpg" alt=txt.storePhoto)
 
 div#navigationPanel.pac-card
     div#pac-container
-        label(for="start") #{directionStart}
-        input#pac-input(placeholder="Enter a location")
+        label(for="start")=txt.directionStart
+        input#pac-input(placeholder=txt.enterLocation)
         input#end(value="56.948010, 24.124630" hidden="")
     div
-        label.mode Mode of Travel:
+        label.mode=txt.modeOfTravel
         select#mode
-            option(value="DRIVING") Driving
-            option(value="WALKING") Walking
-            option(value="BICYCLING") Bicycling
-            option(value="TRANSIT") Transit
+            option(value="DRIVING")=txt.driving
+            option(value="WALKING")=txt.walking
+            option(value="BICYCLING")=txt.bicycling
+            option(value="TRANSIT")=txt.transit
 div#map
 div#directions
 div#infowindow-content

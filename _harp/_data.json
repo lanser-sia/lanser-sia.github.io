@@ -1,7 +1,94 @@
 {
-  "index": {
-    "headTitle": "Lanser"
+  "txt": {
+    "en": {
+      "headTitle": "Lanser",
+      "company": "Sia Lanser",
+      "moto": "Jūsu apavi ir drošās rokās",
+      "storePhoto": "Lanser store",
+      "directionStart": "Get directions from:",
+      "enterLocation": "Enter a location",
+      "modeOfTravel": "Mode of Travel:",
+      "driving": "Driving",
+      "transit": "Transit",
+      "bicycling": "Bicycling",
+      "walking":"Walking",
+      "nav" :{
+        "change": "Change language to: ",
+        "lv": "Latvian",
+        "en": "English",
+        "ru": "Russian",
+        "about": "About",
+        "prices": "Prices",
+        "contact": "Contact us",
+        "media": "In the media"
+      },
+      "footer": {
+        "address": "Riga, Dzirnavu 110a",
+        "tel": "tel. ",
+        "mob": "cell ",
+        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+      }
+    },
+    "lv": {
+      "headTitle": "Lanser",
+      "company": "Sia Lanser",
+      "moto": "Jūsu apavi ir drošās rokās",
+      "storePhoto": "Lanser store",
+      "directionStart": "Get directions from:",
+      "enterLocation": "Enter a location",
+      "modeOfTravel": "Mode of Travel:",
+      "driving": "Driving",
+      "transit": "Transit",
+      "bicycling": "Bicycling",
+      "walking":"Walking",
+      "nav" :{
+        "change": "Change language to: ",
+        "lv": "Latvian",
+        "en": "English",
+        "ru": "Russian",
+        "about": "About",
+        "prices": "Prices",
+        "contact": "Contact us",
+        "media": "In the media"
+      },
+      "footer": {
+        "address": "Riga, Dzirnavu 110a",
+        "tel": "tel. ",
+        "mob": "cell ",
+        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+      }
+    },
+    "ru": {
+      "headTitle": "Lanser",
+      "company": "Sia Lanser",
+      "moto": "Jūsu apavi ir drošās rokās",
+      "storePhoto": "Lanser store",
+      "directionStart": "Get directions from:",
+      "enterLocation": "Enter a location",
+      "modeOfTravel": "Mode of Travel:",
+      "driving": "Driving",
+      "transit": "Transit",
+      "bicycling": "Bicycling",
+      "walking":"Walking",
+      "nav" :{
+        "change": "Change language to: ",
+        "lv": "Latvian",
+        "en": "English",
+        "ru": "Russian",
+        "about": "About",
+        "prices": "Prices",
+        "contact": "Contact us",
+        "media": "In the media"
+      },
+      "footer": {
+        "address": "Riga, Dzirnavu 110a",
+        "tel": "tel. ",
+        "mob": "cell ",
+        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+      }
+    }
   },
+
   "prices": {
     "shoes": {
       "heading": {
@@ -308,13 +395,5 @@
         }
       ]
     }
-  },
-
-  "txt": {
-    "about": "About",
-    "prices": "Prices",
-    "contact": "Contact us",
-    "media": "In the media"
   }
-
 }

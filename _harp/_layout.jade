@@ -1,15 +1,20 @@
-- var lang = "en"
+-
+  var path = current.path.length < 2 ? ["lv", "index"] : current.path;
+  var lang = path[0];
+  var page = path[path.length-1];
+  var txt = public._data.txt[lang];
 
 doctype
-html
+html(lang=lang)
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet")
     link(href="/static/main.css" rel="stylesheet")
-    title #{headTitle}
+    script(src="/static/main.js")
+    title=txt.headTitle
 
-    if current.source == 'index'
+    if page === 'index'
       script(type="application/ld+json")
         include _og.json
 
@@ -17,36 +22,37 @@ html
     .l
       .c
         header
-          a.home(href="/")
-            //img(src="/static/img/logo2.png?1" width=160)
-            | Sia&#160;Lanser
-          span.motto Jūsu apavi ir drošās rokās
+          a.home(href="/")=txt.company
+          span.motto=txt.moto
 
           nav.languages
+            .offScreen=txt.nav.change
             ul
               li
-                a.lv(href="/lv/#{current.source}") LV
+                a.lv(href="/lv/#{page}")=txt.nav.lv
               li
-                a.en(href="/en/#{current.source}") EN
+                a.en(href="/en/#{page}")=txt.nav.en
               li
-                a.ru(href="/ru/#{current.source}") RU
+                a.ru(href="/ru/#{page}")=txt.nav.ru
 
         nav.pages
           ul
             li
-              a(href="/#{lang}/about") About
+              a(href="/#{lang}/about")=txt.nav.about
             li
-              a(href="/#{lang}/prices") Prices
+              a(href="/#{lang}/prices")=txt.nav.prices
             li
-              a(href="/#{lang}/contact") Contact
+              a(href="/#{lang}/contact")=txt.nav.contact
             li
-              a(href="/#{lang}/media") Media
+              a(href="/#{lang}/media")=txt.nav.media
 
         main
+          block main
+            != yield
 
-          != yield
-
-        footer
+        block footer
+          include _footer
+          +footer(txt.footer)
 
       .lm
       .rm
