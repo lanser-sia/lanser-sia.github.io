@@ -38,13 +38,13 @@ html(lang=lang)
         nav.pages
           ul
             li
-              a(href="/#{lang}/about")=txt.nav.about
+              a(href="/#{lang}/about") !{txt.nav.about}
             li
-              a(href="/#{lang}/prices")=txt.nav.prices
+              a(href="/#{lang}/prices") !{txt.nav.prices}
             li
-              a(href="/#{lang}/contact")=txt.nav.contact
+              a(href="/#{lang}/contact") !{txt.nav.contact}
             li
-              a(href="/#{lang}/media")=txt.nav.media
+              a(href="/#{lang}/media") !{txt.nav.media}
 
         main
           block main

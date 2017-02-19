@@ -2,8 +2,8 @@
   "txt": {
     "en": {
       "headTitle": "Lanser",
-      "company": "Sia Lanser",
-      "moto": "Jūsu apavi ir drošās rokās",
+      "company": "sia Lanser",
+      "moto": "Your shoes are in good hands",
       "storePhoto": "Lanser store",
       "directionStart": "Get directions from:",
       "enterLocation": "Enter a location",
@@ -23,72 +23,68 @@
         "media": "In the media"
       },
       "footer": {
-        "address": "Riga, Dzirnavu 110a",
-        "tel": "tel. ",
-        "mob": "cell ",
-        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+        "address": "Dzirnavu&nbsp;110a, Rīga, LV-1050, Latvia",
+        "tel": "Tel. +371&nbsp;67&nbsp;283&nbsp;013",
+        "hours": "Business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
       }
     },
     "lv": {
       "headTitle": "Lanser",
-      "company": "Sia Lanser",
+      "company": "sia Lanser",
       "moto": "Jūsu apavi ir drošās rokās",
-      "storePhoto": "Lanser store",
-      "directionStart": "Get directions from:",
-      "enterLocation": "Enter a location",
-      "modeOfTravel": "Mode of Travel:",
-      "driving": "Driving",
-      "transit": "Transit",
-      "bicycling": "Bicycling",
-      "walking":"Walking",
+      "storePhoto": "Lanser darbnīca",
+      "directionStart": "iegūt norādījumus no:",
+      "enterLocation": "ievadiet atrašanās vietu",
+      "modeOfTravel": "ceļojuma veidu:",
+      "driving": "Braukšana",
+      "transit": "Sabiedriskais transports",
+      "bicycling": "Riteņbraukšanas",
+      "walking":"Iešana",
       "nav" :{
-        "change": "Change language to: ",
-        "lv": "Latvian",
-        "en": "English",
-        "ru": "Russian",
-        "about": "About",
-        "prices": "Prices",
-        "contact": "Contact us",
-        "media": "In the media"
+        "change": "Mainīt valodu: ",
+        "lv": "Latviešu valoda",
+        "en": "Angļu valoda",
+        "ru": "Krievu valoda",
+        "about": "Par mums",
+        "prices": "Cenas",
+        "contact": "Kontakts",
+        "media": "Medijos"
       },
       "footer": {
-        "address": "Riga, Dzirnavu 110a",
-        "tel": "tel. ",
-        "mob": "cell ",
-        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+        "address": "Dzirnavu&nbsp;110a, Rīga, LV-1050, Latvia",
+        "tel": "Tel. +371&nbsp;67&nbsp;283&nbsp;013",
+        "hours": "Darba laiks: Pirmdiena &ndash; Piektdiena&nbsp;9&ndash;19, Sestdiena&nbsp;9&ndash;14"
       }
     },
     "ru": {
       "headTitle": "Lanser",
-      "company": "Sia Lanser",
-      "moto": "Jūsu apavi ir drošās rokās",
-      "storePhoto": "Lanser store",
-      "directionStart": "Get directions from:",
-      "enterLocation": "Enter a location",
-      "modeOfTravel": "Mode of Travel:",
-      "driving": "Driving",
-      "transit": "Transit",
-      "bicycling": "Bicycling",
-      "walking":"Walking",
+      "company": "sia Lanser",
+      "moto": "Bаша обувь в надёжных руках",
+      "storePhoto": "магазин Lanser",
+      "directionStart": "начало пути oт:",
+      "enterLocation": "ввести место",
+      "modeOfTravel": "Типы путесшествий:",
+      "driving": "Aвто",
+      "transit": "Транспорт",
+      "bicycling": "Bелосипед",
+      "walking":"Пешком",
       "nav" :{
-        "change": "Change language to: ",
-        "lv": "Latvian",
-        "en": "English",
-        "ru": "Russian",
-        "about": "About",
-        "prices": "Prices",
-        "contact": "Contact us",
-        "media": "In the media"
+        "change": "Изменить язык на: ",
+        "lv": "Латышский",
+        "en": "Английский",
+        "ru": "Русский",
+        "about": "О нас",
+        "prices": "Цены",
+        "contact": "Связь",
+        "media": "В сми"
       },
       "footer": {
-        "address": "Riga, Dzirnavu 110a",
-        "tel": "tel. ",
-        "mob": "cell ",
-        "hours": "business hours: Monday &ndash; Friday 9am&ndash;7pm, Saturday 9am&ndash;2pm"
+        "address": "Dzirnavu 110a, Rīga, LV-1050, Latvia",
+        "tel": "Tel. +371&nbsp;67&nbsp;283&nbsp;013 ",
+        "hours": "Время работы: Понедельник &ndash; Пятница&nbsp;9&ndash;19, Субботта&nbsp;9&ndash;14"
       }
     }
   },
-
   "prices": {
     "shoes": {
       "heading": {

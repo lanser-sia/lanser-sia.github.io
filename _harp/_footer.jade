@@ -1,7 +1,7 @@
 mixin footer(txt)
     footer
-        address.
-            <a href="https://goo.gl/maps/r6d6ZfvHdnk">#{txt.address}</a>,
-            #{txt.tel}<a href="tel:+37167283013">67283013</a>,
-            #{txt.mob}<a href="tel:+37129807840">29807840</a>,
-            #{txt.hours}
+        address
+            a(href="https://goo.gl/maps/r6d6ZfvHdnk") !{txt.address}
+        div
+            a(href="tel:+37167283013") !{txt.tel}
+        div !{txt.hours}
