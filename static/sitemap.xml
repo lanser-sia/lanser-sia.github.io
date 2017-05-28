@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="https://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://lanser.lv</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://lanser.lv/ru/index"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lanser.lv/en/index"/>
+        <xhtml:link rel="alternate" hreflang="lv" href="https://lanser.lv/lv/index"/>
+    </url>
+    <url>
+        <loc>https://lanser.lv/lv/about</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://lanser.lv/ru/about"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lanser.lv/en/about"/>
+    </url>
+    <url>
+        <loc>https://lanser.lv/lv/prices</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://lanser.lv/ru/prices"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lanser.lv/en/prices"/>
+    </url>
+    <url>
+        <loc>https://lanser.lv/lv/contact</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://lanser.lv/ru/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lanser.lv/en/contact"/>
+    </url>
+    <url>
+        <loc>https://lanser.lv/lv/media</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://lanser.lv/ru/media"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lanser.lv/en/media"/>
+    </url>
+</urlset>
