@@ -9,9 +9,10 @@ html(lang=lang)
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    link(href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet")
     link(href="/static/main.css" rel="stylesheet")
     title #{txt.headTitle} – #{txt.nav[page]}
+    script
+      include gf.js
 
     if page === 'index'
       script(type="application/ld+json")
