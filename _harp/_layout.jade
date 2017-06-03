@@ -11,8 +11,7 @@ html(lang=lang)
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="/static/main.css" rel="stylesheet")
     title #{txt.headTitle} – #{txt.nav[page]}
-    script
-      include gf.js
+    script (function(e){var o=e.createElement("link"),t=e.scripts[0];o.href="https://fonts.googleapis.com/css?family=PT+Sans";o.type="text/css";o.rel="stylesheet";t.parentNode.insertBefore(o,t)})(document)
 
     if page === 'index'
       script(type="application/ld+json")

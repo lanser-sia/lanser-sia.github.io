@@ -1,1 +1,0 @@
-WebFontConfig={google:{families:["PT Sans"]}},function(e){var o=e.createElement("script"),t=e.scripts[0];o.src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",o.async=!0,t.parentNode.insertBefore(o,t)}(document)
